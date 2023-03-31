@@ -1,0 +1,9 @@
+package com.potemon.sc.items;
+
+import com.potemon.sc.utils.interfaces.IHasModel;
+
+import net.minecraft.item.Item;
+
+public class ItemErrorIngot extends Item implements IHasModel {
+	public ItemErrorIngot(String name)
+}

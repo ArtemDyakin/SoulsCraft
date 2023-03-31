@@ -1,0 +1,5 @@
+package com.potemon.sc.main.proxy;
+
+public class ClientProxy {
+
+}

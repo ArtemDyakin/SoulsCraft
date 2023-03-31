@@ -1,0 +1,23 @@
+package com.potemon.sc.items;
+
+import com.potemon.sc.init.InitItems;
+import com.potemon.sc.utils.interfaces.IHasModel;
+import com.potemon.sc.main.Main;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class ItemCoolSword extends Item implements IHasModel {
+	public ItemCoolSword(String name) {
+		setUnlocalizedName(name);
+		setRegistryName(name);
+		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		
+		InitItems.ITEMS.add(this);
+	}
+	
+	@Override
+	public void registerModels() {
+		Main.proxy.registerItemRenderer(this, 0, "inventory");
+	}
+}

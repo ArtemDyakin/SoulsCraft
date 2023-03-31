@@ -1,0 +1,7 @@
+package com.potemon.sc.main.proxy;
+
+public class ClientProxy extends CommonProxy {
+	public void registerItemRenderer(Item item, int meta, String id) {
+		
+	}
+}

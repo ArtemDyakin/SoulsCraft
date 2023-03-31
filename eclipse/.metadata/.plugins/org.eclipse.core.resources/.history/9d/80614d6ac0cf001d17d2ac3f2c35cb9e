@@ -1,0 +1,5 @@
+package com.potemon.sc.items;
+
+public class ItemErrorIngot {
+	
+}

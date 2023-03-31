@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.potemon.sc.main.reference.Reference"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.Instance"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.fml.common.SidedProxy"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.client.model.ModelLoader"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.renderer.block.model.ModelResourceLocation"/>
+    <fullyQualifiedTypeName name="com.potemon.sc.main.proxy.CommonProxy"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventHandler"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.fml.common.event.FMLPreInitializationEvent"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventBusSubscriber"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.fml.common.eventhandler.SubscribeEvent"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.event.RegistryEvent"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.client.event.ModelRegistryEvent"/>
+    <fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+    <fullyQualifiedTypeName name="com.potemon.sc.utils.interfaces.IHasModel"/>
+    <fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+    <fullyQualifiedTypeName name="com.potemon.sc.init.InitItems"/>
+    <fullyQualifiedTypeName name="com.potemon.sc.items.ItemErrorIngot"/>
+    <fullyQualifiedTypeName name="net.minecraft.item.ItemSword"/>
+</qualifiedTypeNameHistroy>

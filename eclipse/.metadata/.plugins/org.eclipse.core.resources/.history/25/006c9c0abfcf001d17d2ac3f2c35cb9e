@@ -1,0 +1,11 @@
+package com.potemon.sc.utils.handlers;
+import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+@EventBusSubscriber
+public class RegisterHandler {
+	@SubscribeEvent
+	public static void onItemRegister(RegisteryIvent.Register<Item> event) {
+		event.getRegistry().RegisterAll(InitItems.ITEMS.toArray(new Item [0]));
+	}
+}
